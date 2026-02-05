@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3775033310351737013}
   - component: {fileID: 8157545588056204584}
   - component: {fileID: 6781592522818082164}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,6 +194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   rb: {fileID: 3775033310351737013}
   moveSpeed: 2
+  obstacleCheckRadius: 0.15
   listObstacles:
     serializedVersion: 2
     m_Bits: 0
